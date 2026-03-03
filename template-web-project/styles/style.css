@@ -1,8 +1,12 @@
 body {
-  color: red;
+  color: #9d0808;
 }
 
 h1 {
-  color: red;
-  font-family: monospace;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+.my-box{
+  width: 1px;
+  border: black
 }
