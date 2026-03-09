@@ -1,15 +1,44 @@
 body {
-  color: #9d0808;
+  background-image: url("https://external-preview.redd.it/cozy-library-v0-ZRSx1QXV2e08j-01KxJOEF365hYEZG7hITesV_j2i1I.jpg?width=1080&crop=smart&auto=webp&s=2ca18b29aa75eb5de62d82c6f95a6d2075721a00");
+  background-repeat: no-repeat;
+  background-size: 107%;
+  background-position: center;
+  background-color: #cccccc;;
 }
 
-h1 {
-  color: black;
-  font-family: 'Courier New', Courier, monospace;
+main {
+  display: flex;
+  gap: 5px;
 }
 .text-box {
   border: 2px solid #000;
   padding: 10px;
   margin: 10px;
   background-color: #eceaea;
-  width: 1000px;
+  width: 500px;
+  height: 200px;
+  font-size: large;
+}
+.long-text-box{
+  border: 2px solid #000;
+  padding-left: 20px;
+  margin: 10px;
+  margin-left: auto;
+  background-color: #eceaea;
+  width: 500px;
+  height: 900px;
+  font-size: large;
+}
+.gif-background-element {
+  background-image: url('https://media1.tenor.com/m/5RMex2vfVHIAAAAC/reading.gif');
+  background-size: 30%;       /* or 'contain', '100% 100%', etc. */
+  background-repeat: no-repeat;
+  background-position: 50px center;
+  height: 500px;                /* Must define a height for the element */
+  width: 100%;
+  margin-top: -600px;
+}
+li{
+  color: black;
+  font-size: large;
 }
